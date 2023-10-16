@@ -1,0 +1,7 @@
+{
+  "package_name": "matrix_interface",
+  "non_idl_tuples": [
+    "/home/maxim/git/ROS2/ros2_ws/src/matrix_interface:msg/Message.msg",
+    "/home/maxim/git/ROS2/ros2_ws/src/matrix_interface:srv/Matrix3x3.srv"
+  ]
+}

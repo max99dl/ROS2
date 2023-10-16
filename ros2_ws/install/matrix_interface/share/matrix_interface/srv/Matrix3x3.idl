@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from matrix_interface/srv/Matrix3x3.srv
+// generated code does not contain a copyright notice
+
+
+module matrix_interface {
+  module srv {
+    struct Matrix3x3_Request {
+      int64 first;
+
+      int64 second;
+
+      int64 third;
+
+      int64 four;
+
+      int64 five;
+
+      int64 six;
+
+      int64 seven;
+
+      int64 eight;
+
+      int64 nine;
+    };
+    struct Matrix3x3_Response {
+      double result;
+    };
+  };
+};
