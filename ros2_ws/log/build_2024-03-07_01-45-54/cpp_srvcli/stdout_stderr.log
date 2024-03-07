@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target client_component[0m
+[ 75%] Built target server_component
+[ 75%] Built target server
+[ 75%] Built target client
+[ 87%] [32mBuilding CXX object CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libclient_component.so[0m
+[100%] Built target client_component
+-- Install configuration: ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+-- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/libserver_component.so
+-- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/libserver_component.so" to ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/libclient_component.so
+-- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/libclient_component.so" to ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/rclcpp_components/cpp_srvcli
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

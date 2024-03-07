@@ -1,0 +1,38 @@
+[0.111s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.225s] [ 25%] Built target fibonacci_action_client
+[0.233s] [ 50%] Built target fibonacci_action_server
+[0.236s] [ 75%] Built target action_server
+[0.245s] [ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[3.471s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::FibonacciActionClient::result_callback(const rclcpp_action::ClientGoalHandle<action_tutorials_interfaces::action::Fibonacci>::WrappedResult&)[m[K’:
+[3.472s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:103:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[3.472s]   103 |           case[01;31m[K:[m[K rclcpp_action::ResultCode::SUCCEEDED:
+[3.472s]       |               [01;31m[K^[m[K
+[3.472s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:103:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+[3.472s]   103 |           case: rclcpp_action::ResultCode::SUCCEEDED[01;31m[K:[m[K
+[3.473s]       |                                                     [01;31m[K^[m[K
+[3.473s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:103:44:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.473s]   103 |           case: [01;35m[Krclcpp_action::ResultCode::SUCCEEDED[m[K:
+[3.473s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.473s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:105:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[3.473s]   105 |           case[01;31m[K:[m[K rclcpp_action::ResultCode::ABORTED:
+[3.474s]       |               [01;31m[K^[m[K
+[3.474s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:105:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+[3.474s]   105 |           case: rclcpp_action::ResultCode::ABORTED[01;31m[K:[m[K
+[3.474s]       |                                                   [01;31m[K^[m[K
+[3.474s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:105:44:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.474s]   105 |           case: [01;35m[Krclcpp_action::ResultCode::ABORTED[m[K:
+[3.474s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.475s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:108:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[3.475s]   108 |           case [01;31m[K:[m[K rclcpp_action::ResultCode::CANCELED:
+[3.475s]       |                [01;31m[K^[m[K
+[3.475s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:108:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+[3.475s]   108 |           case : rclcpp_action::ResultCode::CANCELED[01;31m[K:[m[K
+[3.475s]       |                                                     [01;31m[K^[m[K
+[3.476s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:108:45:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.476s]   108 |           case : [01;35m[Krclcpp_action::ResultCode::CANCELED[m[K:
+[3.476s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.480s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+[4.481s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+[4.482s] gmake: *** [Makefile:146: all] Error 2
+[4.488s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp -- -j12 -l12

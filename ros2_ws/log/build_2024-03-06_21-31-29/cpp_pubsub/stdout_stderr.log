@@ -1,0 +1,15 @@
+[ 25%] Built target talker
+[ 50%] Built target listener_component
+[ 75%] Built target listener
+[100%] Built target talker_component
+-- Install configuration: ""
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/libtalker_component.so
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/liblistener_component.so
+[31mCMake Error at cmake_install.cmake:132 (file):
+  file INSTALL cannot find
+  "/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/launch,": No such file or
+  directory.
+
+[0m

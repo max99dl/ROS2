@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000453] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000471] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000532] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000586] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000603] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000626] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000655] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000671] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000752] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces')])}
+[0.000811] (action_tutorials_cpp) JobStarted: {'identifier': 'action_tutorials_cpp'}
+[0.079813] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'cmake'}
+[0.080464] (action_tutorials_cpp) JobProgress: {'identifier': 'action_tutorials_cpp', 'progress': 'build'}
+[0.081065] (action_tutorials_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp', '--', '-j12', '-l12'], 'cwd': '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/maxim'), ('OLDPWD', '/home/maxim/git/ROS2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1939'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maxim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maxim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxim-HP:@/tmp/.ICE-unix/1697,unix/maxim-HP:/tmp/.ICE-unix/1697'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ebfcd68_6834_4373_b6d6_4f9eb16e4e7a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N3LCK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble')]), 'shell': False}
+[0.099453] (-) TimerEvent: {}
+[0.172153] (action_tutorials_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[0.196502] (action_tutorials_cpp) StdoutLine: {'line': b'[ 50%] Built target fibonacci_action_server\n'}
+[0.198495] (action_tutorials_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o\x1b[0m\n'}
+[0.199440] (-) TimerEvent: {}
+[0.299659] (-) TimerEvent: {}
+[0.400033] (-) TimerEvent: {}
+[0.500381] (-) TimerEvent: {}
+[0.600753] (-) TimerEvent: {}
+[0.701188] (-) TimerEvent: {}
+[0.801565] (-) TimerEvent: {}
+[0.901942] (-) TimerEvent: {}
+[1.002307] (-) TimerEvent: {}
+[1.102659] (-) TimerEvent: {}
+[1.203043] (-) TimerEvent: {}
+[1.303473] (-) TimerEvent: {}
+[1.403821] (-) TimerEvent: {}
+[1.504199] (-) TimerEvent: {}
+[1.604584] (-) TimerEvent: {}
+[1.704977] (-) TimerEvent: {}
+[1.805373] (-) TimerEvent: {}
+[1.905763] (-) TimerEvent: {}
+[2.006150] (-) TimerEvent: {}
+[2.106697] (-) TimerEvent: {}
+[2.207084] (-) TimerEvent: {}
+[2.307487] (-) TimerEvent: {}
+[2.407873] (-) TimerEvent: {}
+[2.495483] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.495778] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[2.495905] (action_tutorials_cpp) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.496018] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.496132] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[2.496241] (action_tutorials_cpp) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.496352] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.496469] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[2.496579] (action_tutorials_cpp) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.496688] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.496798] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[2.496906] (action_tutorials_cpp) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.497016] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.497130] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[2.497240] (action_tutorials_cpp) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.497373] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.497483] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[2.497592] (action_tutorials_cpp) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.497700] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.497810] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const Fibonnaci::Goal> goal)\n'}
+[2.497919] (action_tutorials_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.498027] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.498171] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<const Fibonnaci\x1b[01;31m\x1b[K::\x1b[m\x1b[KGoal> goal)\n'}
+[2.498281] (action_tutorials_cpp) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.498390] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.498502] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         std::shared_ptr<\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K Fibonnaci::Goal> goal)\n'}
+[2.498611] (action_tutorials_cpp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.498721] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.498843] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:52:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[2.498954] (action_tutorials_cpp) StderrLine: {'line': b'   52 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const Fibonnaci::Goal> goal)\n'}
+[2.499083] (action_tutorials_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.500808] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.501090] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:40:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.501218] (action_tutorials_cpp) StderrLine: {'line': b'   40 |             std::bind(&FibonacciActionServer::handle_goal, this, _1, _2)\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[2.501350] (action_tutorials_cpp) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.501460] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:37:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.501571] (action_tutorials_cpp) StderrLine: {'line': b'   37 |         this->action_server_ = rclcpp_action::create_server<Fibonacci>\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[2.501681] (action_tutorials_cpp) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.505093] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:43:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.505350] (action_tutorials_cpp) StderrLine: {'line': b'   43 |         \x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.505472] (action_tutorials_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.507975] (-) TimerEvent: {}
+[2.509753] (action_tutorials_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.509993] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.510115] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.510228] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.510338] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.510445] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.510554] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.510663] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.510771] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.510880] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.510989] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.511098] (action_tutorials_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:5\x1b[m\x1b[K:\n'}
+[2.511211] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse action_tutorials_cpp::FibonacciActionServer::handle_goal(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.511323] (action_tutorials_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:54:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.511500] (action_tutorials_cpp) StderrLine: {'line': b'   54 |         RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", \x1b[01;31m\x1b[Kgoal\x1b[m\x1b[K->order);\n'}
+[2.511618] (action_tutorials_cpp) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.608121] (-) TimerEvent: {}
+[2.708506] (-) TimerEvent: {}
+[2.808880] (-) TimerEvent: {}
+[2.909259] (-) TimerEvent: {}
+[3.009632] (-) TimerEvent: {}
+[3.035360] (action_tutorials_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1\n'}
+[3.036091] (action_tutorials_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2\n'}
+[3.036627] (action_tutorials_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.041843] (action_tutorials_cpp) CommandEnded: {'returncode': 2}
+[3.109886] (-) TimerEvent: {}
+[3.210188] (-) TimerEvent: {}
+[3.293974] (action_tutorials_cpp) JobEnded: {'identifier': 'action_tutorials_cpp', 'rc': 2}
+[3.304343] (-) EventReactorShutdown: {}

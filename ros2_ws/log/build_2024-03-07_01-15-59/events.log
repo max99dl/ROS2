@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000410] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000466] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.000492] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000515] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000537] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000558] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000579] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000600] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000621] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000644] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces')])}
+[0.000674] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.099383] (-) TimerEvent: {}
+[0.125651] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.127241] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.128373] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli', '--', '-j12', '-l12'], 'cwd': '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/maxim'), ('OLDPWD', '/home/maxim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1716'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maxim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maxim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxim-HP:@/tmp/.ICE-unix/1688,unix/maxim-HP:/tmp/.ICE-unix/1688'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b2a5b17_48e3_4e87_8bdc_c6c565eff703'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13Y2J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.592'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.188172] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199490] (-) TimerEvent: {}
+[0.299805] (-) TimerEvent: {}
+[0.400096] (-) TimerEvent: {}
+[0.414782] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.490142] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.494937] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500219] (-) TimerEvent: {}
+[0.505920] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.525960] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553952] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600361] (-) TimerEvent: {}
+[0.651575] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.654541] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.700483] (-) TimerEvent: {}
+[0.707224] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.800632] (-) TimerEvent: {}
+[0.901022] (-) TimerEvent: {}
+[0.955841] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.001167] (-) TimerEvent: {}
+[1.046253] (cpp_srvcli) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.101341] (-) TimerEvent: {}
+[1.201838] (-) TimerEvent: {}
+[1.302218] (-) TimerEvent: {}
+[1.326005] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.361763] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[1.364662] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli\n'}
+[1.402341] (-) TimerEvent: {}
+[1.439276] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/rclcpp_components/node_main_client.cpp.o\x1b[0m\n'}
+[1.439521] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server_component.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[1.445474] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/rclcpp_components/node_main_server.cpp.o\x1b[0m\n'}
+[1.445764] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.502449] (-) TimerEvent: {}
+[1.603047] (-) TimerEvent: {}
+[1.703411] (-) TimerEvent: {}
+[1.803742] (-) TimerEvent: {}
+[1.904072] (-) TimerEvent: {}
+[2.004457] (-) TimerEvent: {}
+[2.104811] (-) TimerEvent: {}
+[2.205147] (-) TimerEvent: {}
+[2.305533] (-) TimerEvent: {}
+[2.405938] (-) TimerEvent: {}
+[2.506382] (-) TimerEvent: {}
+[2.606932] (-) TimerEvent: {}
+[2.707385] (-) TimerEvent: {}
+[2.807811] (-) TimerEvent: {}
+[2.908222] (-) TimerEvent: {}
+[3.008621] (-) TimerEvent: {}
+[3.109033] (-) TimerEvent: {}
+[3.210132] (-) TimerEvent: {}
+[3.311601] (-) TimerEvent: {}
+[3.425570] (-) TimerEvent: {}
+[4.581318] (-) TimerEvent: {}
+[18.387109] (-) TimerEvent: {}
+[114.903174] (-) TimerEvent: {}
+[138.948730] (-) TimerEvent: {}
+[139.049971] (-) TimerEvent: {}
+[139.150409] (-) TimerEvent: {}
+[139.250858] (-) TimerEvent: {}
+[139.351299] (-) TimerEvent: {}
+[139.451840] (-) TimerEvent: {}
+[139.553214] (-) TimerEvent: {}
+[139.653635] (-) TimerEvent: {}
+[139.754422] (-) TimerEvent: {}
+[139.855148] (-) TimerEvent: {}
+[139.955600] (-) TimerEvent: {}
+[140.056025] (-) TimerEvent: {}
+[140.156445] (-) TimerEvent: {}
+[140.256801] (-) TimerEvent: {}
+[140.265533] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalServer::MinimalServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[140.267811] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[140.268037] (cpp_srvcli) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kserver_\x1b[m\x1b[K = this->create_service<tutorial_interfaces::srv::AddThreeInts>(\n'}
+[140.268140] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[140.273520] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:15:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[140.273965] (cpp_srvcli) StderrLine: {'line': b'   15 |     std::shared_ptr<tutorial_interfaces::srv::AddThreeInts>\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K client_;\n'}
+[140.274050] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[140.274118] (cpp_srvcli) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[140.275776] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:15:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[140.275980] (cpp_srvcli) StderrLine: {'line': b'   15 |     std::shared_ptr<tutorial_interfaces::srv::AddThreeInts>SharedPtr \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K;\n'}
+[140.276064] (cpp_srvcli) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[140.284125] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalClient::MinimalClient(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[140.284452] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[140.284582] (cpp_srvcli) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K = this->create_client<tutorial_interfaces::rsv::AddThreeInts>("add_three_ints");\n'}
+[140.284682] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[140.284774] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krsv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[140.284871] (cpp_srvcli) StderrLine: {'line': b'   21 |         client_ = this->create_client<tutorial_interfaces::\x1b[01;31m\x1b[Krsv\x1b[m\x1b[K::AddThreeInts>("add_three_ints");\n'}
+[140.284962] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[140.285054] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[140.285140] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[140.285328] (cpp_srvcli) StderrLine: {'line': b'   21 |         client_ = this->\x1b[01;31m\x1b[Kcreate_client<tutorial_interfaces::rsv::AddThreeInts>\x1b[m\x1b[K("add_three_ints");\n'}
+[140.285397] (cpp_srvcli) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[140.285453] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalClient::create_client<<expression error> >(const char [15])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[140.285528] (cpp_srvcli) StderrLine: {'line': b'   21 |         client_ = \x1b[01;31m\x1b[Kthis->create_client<tutorial_interfaces::rsv::AddThreeInts>("add_three_ints")\x1b[m\x1b[K;\n'}
+[140.285599] (cpp_srvcli) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[140.288708] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[140.288963] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[140.289055] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[140.289138] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[140.289221] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[140.289307] (cpp_srvcli) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[140.289384] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[140.289465] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[140.289571] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[140.289658] (cpp_srvcli) StderrLine: {'line': b'   21 |         client_ = \x1b[01;31m\x1b[Kthis->create_client<tutorial_interfaces::rsv::AddThreeInts>("add_three_ints")\x1b[m\x1b[K;\n'}
+[140.289738] (cpp_srvcli) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[140.304328] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalClient::create_and_send_request()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[140.304620] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:33:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[140.304714] (cpp_srvcli) StderrLine: {'line': b'   33 |         while (!\x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->wait_for_service(1s))\n'}
+[140.304785] (cpp_srvcli) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[140.307016] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:38:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[140.307265] (cpp_srvcli) StderrLine: {'line': b'   38 |                 return \x1b[01;31m\x1b[K0\x1b[m\x1b[K;\n'}
+[140.307361] (cpp_srvcli) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[140.317748] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:44:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[140.318034] (cpp_srvcli) StderrLine: {'line': b'   44 |         auto result = \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->async_send_request(request);\n'}
+[140.318154] (cpp_srvcli) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[140.356941] (-) TimerEvent: {}
+[140.457353] (-) TimerEvent: {}
+[140.557728] (-) TimerEvent: {}
+[140.658084] (-) TimerEvent: {}
+[140.758596] (-) TimerEvent: {}
+[140.859254] (-) TimerEvent: {}
+[140.866793] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client_component.dir/build.make:76: CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[140.867109] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/client_component.dir/all] Error 2\n'}
+[140.867201] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[140.925775] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server_component.dir/build.make:76: CMakeFiles/server_component.dir/src/add_two_ints_server.cpp.o] Error 1\n'}
+[140.926080] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/server_component.dir/all] Error 2\n'}
+[140.959363] (-) TimerEvent: {}
+[141.059716] (-) TimerEvent: {}
+[141.151715] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[141.153713] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[141.159804] (-) TimerEvent: {}
+[141.260139] (-) TimerEvent: {}
+[141.360492] (-) TimerEvent: {}
+[141.384731] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[141.389063] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target client\n'}
+[141.393071] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[141.407365] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[141.460648] (-) TimerEvent: {}
+[141.561052] (-) TimerEvent: {}
+[141.575076] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[141.585836] (-) EventReactorShutdown: {}

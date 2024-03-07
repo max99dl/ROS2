@@ -1,0 +1,45 @@
+[0.068s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/more_interfaces -- -j12 -l12
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[0.151s] [  3%] Built target more_interfaces__cpp
+[0.155s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.169s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[0.187s] [ 21%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.187s] [ 30%] Built target more_interfaces__rosidl_typesupport_c
+[0.189s] [ 39%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.190s] [ 48%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.190s] [ 63%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.191s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[0.214s] [ 66%] Built target more_interfaces
+[0.228s] [ 69%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.241s] [ 72%] Built target more_interfaces__py
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[0.272s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.290s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[0.307s] [ 90%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.307s] [ 90%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.309s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.435s] running egg_info
+[0.436s] writing more_interfaces.egg-info/PKG-INFO
+[0.436s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.436s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.438s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.439s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.474s] [ 96%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.256s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookPublisher::AddressBookPublisher()[m[K’:
+[2.257s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddres_book_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kaddress_book_publisher_[m[K’?
+[2.257s]    17 |         [01;31m[Kaddres_book_publisher_[m[K =
+[2.257s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.257s]       |         [32m[Kaddress_book_publisher_[m[K
+[2.943s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[2.943s] gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/publish_address_book.dir/all] Error 2
+[2.944s] gmake: *** [Makefile:146: all] Error 2
+[2.950s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/more_interfaces -- -j12 -l12

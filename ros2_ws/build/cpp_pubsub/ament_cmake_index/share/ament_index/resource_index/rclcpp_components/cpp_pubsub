@@ -1,0 +1,2 @@
+MinimalPublisher;lib/libtalker_component.so
+MinimalSubscriber;lib/liblistener_component.so

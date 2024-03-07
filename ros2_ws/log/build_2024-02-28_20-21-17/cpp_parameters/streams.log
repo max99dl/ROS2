@@ -1,0 +1,26 @@
+[0.111s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_parameters -- -j12 -l12
+[0.236s] [35m[1mConsolidate compiler generated dependencies of target minimal_param_node[0m
+[0.289s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[4.498s] [100%] [32m[1mLinking CXX executable minimal_param_node[0m
+[4.763s] [100%] Built target minimal_param_node
+[4.785s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_parameters -- -j12 -l12
+[4.868s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_parameters
+[4.882s] -- Install configuration: ""
+[4.883s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[4.884s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""
+[4.885s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[4.885s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[4.885s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[4.886s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[4.887s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[4.887s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[4.887s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[4.888s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[4.888s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[4.889s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[4.889s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[4.889s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[4.890s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[4.890s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[4.890s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[4.894s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_parameters

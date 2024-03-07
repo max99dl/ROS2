@@ -1,0 +1,8 @@
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:34:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AddressBookPublisher[m[K’ has no member named ‘[01m[Kaddress_book_publisher_[m[K’; did you mean ‘[01m[Kaddres_book_publisher_[m[K’?
+   34 |             this->[01;31m[Kaddress_book_publisher_[m[K->publish(message);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Kaddres_book_publisher_[m[K
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/publish_address_book.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

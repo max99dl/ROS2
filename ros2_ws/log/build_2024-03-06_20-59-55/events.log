@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000494] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000794] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000849] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.001068] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001276] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001374] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001497] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001605] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001698] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.001794] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001855] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces')])}
+[0.001954] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.076213] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.077599] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.077711] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/maxim'), ('OLDPWD', '/home/maxim/git/ROS2/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1924'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maxim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maxim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxim-HP:@/tmp/.ICE-unix/1688,unix/maxim-HP:/tmp/.ICE-unix/1688'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5eb6fa55_0a19_4a44_a834_4ddf41d74401'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13Y2J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099546] (-) TimerEvent: {}
+[0.179279] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199685] (-) TimerEvent: {}
+[0.300093] (-) TimerEvent: {}
+[0.377895] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400225] (-) TimerEvent: {}
+[0.421548] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.424708] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.432223] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.444739] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.462135] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500355] (-) TimerEvent: {}
+[0.524590] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.526573] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.561414] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600491] (-) TimerEvent: {}
+[0.700841] (-) TimerEvent: {}
+[0.716372] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.772126] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.800968] (-) TimerEvent: {}
+[0.901318] (-) TimerEvent: {}
+[0.958250] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.987316] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.989207] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub\n'}
+[1.001469] (-) TimerEvent: {}
+[1.020376] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener_component\x1b[0m\n'}
+[1.020889] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker_component\x1b[0m\n'}
+[1.021285] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.029733] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.054915] (cpp_pubsub) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/talker_component.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.055139] (cpp_pubsub) StdoutLine: {'line': b'[ 62%] Built target listener\n'}
+[1.055214] (cpp_pubsub) StdoutLine: {'line': b'[ 62%] Built target talker\n'}
+[1.056039] (cpp_pubsub) StdoutLine: {'line': b'[ 87%] Built target listener_component\n'}
+[1.101604] (-) TimerEvent: {}
+[1.201979] (-) TimerEvent: {}
+[1.302352] (-) TimerEvent: {}
+[1.402825] (-) TimerEvent: {}
+[1.503271] (-) TimerEvent: {}
+[1.603705] (-) TimerEvent: {}
+[1.704098] (-) TimerEvent: {}
+[1.804417] (-) TimerEvent: {}
+[1.904795] (-) TimerEvent: {}
+[2.005384] (-) TimerEvent: {}
+[2.105760] (-) TimerEvent: {}
+[2.206396] (-) TimerEvent: {}
+[2.306900] (-) TimerEvent: {}
+[2.407268] (-) TimerEvent: {}
+[2.507649] (-) TimerEvent: {}
+[2.607985] (-) TimerEvent: {}
+[2.708359] (-) TimerEvent: {}
+[2.808722] (-) TimerEvent: {}
+[2.909107] (-) TimerEvent: {}
+[3.009485] (-) TimerEvent: {}
+[3.109865] (-) TimerEvent: {}
+[3.210255] (-) TimerEvent: {}
+[3.310620] (-) TimerEvent: {}
+[3.410978] (-) TimerEvent: {}
+[3.511355] (-) TimerEvent: {}
+[3.611722] (-) TimerEvent: {}
+[3.712089] (-) TimerEvent: {}
+[3.807270] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.809148] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.809223] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[3.809288] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[3.809338] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:2\x1b[m\x1b[K:\n'}
+[3.809387] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MinimalPublisher; _Args = {const rclcpp::NodeOptions&}; _Tp = MinimalPublisher]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.809437] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MinimalPublisher; _Args = {const rclcpp::NodeOptions&}; _Tp = MinimalPublisher; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MinimalPublisher>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809495] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809546] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809596] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {const rclcpp::NodeOptions&}; _Tp = MinimalPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809646] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {const rclcpp::NodeOptions&}; _Tp = MinimalPublisher]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809701] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {const rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809750] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalPublisher; _Args = {const rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809800] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:45:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = MinimalPublisher]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809850] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:43:3:\x1b[m\x1b[K   required from here\n'}
+[3.809904] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.809952] (cpp_pubsub) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.810001] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.810048] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.810097] (cpp_pubsub) StderrLine: {'line': b'   28 |     \x1b[01;36m\x1b[KMinimalPublisher\x1b[m\x1b[K()\n'}
+[3.810144] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.810202] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[3.812372] (-) TimerEvent: {}
+[3.908658] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker_component.dir/build.make:76: CMakeFiles/talker_component.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[3.909364] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/talker_component.dir/all] Error 2\n'}
+[3.909773] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.912440] (-) TimerEvent: {}
+[3.931310] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[4.012529] (-) TimerEvent: {}
+[4.112792] (-) TimerEvent: {}
+[4.129237] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[4.139877] (-) EventReactorShutdown: {}

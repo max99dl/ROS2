@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001152] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.001454] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001502] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.001545] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001626] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001813] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001854] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001893] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001934] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.002115] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002161] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces')])}
+[0.002242] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.099809] (-) TimerEvent: {}
+[0.120292] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.121403] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.122369] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli', '--', '-j12', '-l12'], 'cwd': '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxim'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/maxim'), ('OLDPWD', '/home/maxim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '1716'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maxim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maxim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/maxim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxim-HP:@/tmp/.ICE-unix/1688,unix/maxim-HP:/tmp/.ICE-unix/1688'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b2a5b17_48e3_4e87_8bdc_c6c565eff703'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13Y2J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.592'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.200116] (-) TimerEvent: {}
+[0.227550] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server_component\x1b[0m\n'}
+[0.229604] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_component\x1b[0m\n'}
+[0.253521] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] Built target server\n'}
+[0.259216] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.262115] (cpp_srvcli) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/server_component.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.263165] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.300260] (-) TimerEvent: {}
+[0.400679] (-) TimerEvent: {}
+[0.501130] (-) TimerEvent: {}
+[0.601552] (-) TimerEvent: {}
+[0.701941] (-) TimerEvent: {}
+[0.802557] (-) TimerEvent: {}
+[0.902888] (-) TimerEvent: {}
+[1.003253] (-) TimerEvent: {}
+[1.103760] (-) TimerEvent: {}
+[1.204348] (-) TimerEvent: {}
+[1.304734] (-) TimerEvent: {}
+[1.405122] (-) TimerEvent: {}
+[1.505529] (-) TimerEvent: {}
+[1.605936] (-) TimerEvent: {}
+[1.706548] (-) TimerEvent: {}
+[1.807123] (-) TimerEvent: {}
+[1.907538] (-) TimerEvent: {}
+[2.008261] (-) TimerEvent: {}
+[2.108841] (-) TimerEvent: {}
+[2.209281] (-) TimerEvent: {}
+[2.309686] (-) TimerEvent: {}
+[2.410257] (-) TimerEvent: {}
+[2.510854] (-) TimerEvent: {}
+[2.611240] (-) TimerEvent: {}
+[2.711612] (-) TimerEvent: {}
+[2.812153] (-) TimerEvent: {}
+[2.912504] (-) TimerEvent: {}
+[3.013081] (-) TimerEvent: {}
+[3.113662] (-) TimerEvent: {}
+[3.214080] (-) TimerEvent: {}
+[3.314673] (-) TimerEvent: {}
+[3.360683] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalClient::create_and_send_request()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.361026] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:38:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.361188] (cpp_srvcli) StderrLine: {'line': b'   38 |                 return \x1b[01;31m\x1b[K0\x1b[m\x1b[K;\n'}
+[3.361327] (cpp_srvcli) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.363043] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_until_future_complete(MinimalClient*, rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::FutureAndRequestId&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.363307] (cpp_srvcli) StderrLine: {'line': b'   50 |         if(\x1b[01;31m\x1b[Krclcpp::spin_until_future_complete(this, result)\x1b[m\x1b[K ==\n'}
+[3.363458] (cpp_srvcli) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.363736] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.363872] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[3.364007] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.364150] (cpp_srvcli) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[3.364323] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.364483] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.364618] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K(MinimalClient*)this\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[KMinimalClient*\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.364777] (cpp_srvcli) StderrLine: {'line': b'   50 |         if(rclcpp::spin_until_future_complete(\x1b[01;36m\x1b[Kthis\x1b[m\x1b[K, result) ==\n'}
+[3.364911] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.365044] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.365175] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[3.365307] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.365445] (cpp_srvcli) StderrLine: {'line': b'  117 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[3.365576] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.365709] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.365841] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KMinimalClient*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.365977] (cpp_srvcli) StderrLine: {'line': b'   50 |         if(\x1b[01;36m\x1b[Krclcpp::spin_until_future_complete(this, result)\x1b[m\x1b[K ==\n'}
+[3.366131] (cpp_srvcli) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.414837] (-) TimerEvent: {}
+[3.515446] (-) TimerEvent: {}
+[3.615936] (-) TimerEvent: {}
+[3.716507] (-) TimerEvent: {}
+[3.816892] (-) TimerEvent: {}
+[3.917270] (-) TimerEvent: {}
+[4.017670] (-) TimerEvent: {}
+[4.118078] (-) TimerEvent: {}
+[4.152585] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client_component.dir/build.make:76: CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[4.153327] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/client_component.dir/all] Error 2\n'}
+[4.153554] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.218226] (-) TimerEvent: {}
+[4.318662] (-) TimerEvent: {}
+[4.419161] (-) TimerEvent: {}
+[4.519568] (-) TimerEvent: {}
+[4.619967] (-) TimerEvent: {}
+[4.720657] (-) TimerEvent: {}
+[4.821037] (-) TimerEvent: {}
+[4.921429] (-) TimerEvent: {}
+[5.021831] (-) TimerEvent: {}
+[5.085640] (cpp_srvcli) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libserver_component.so\x1b[0m\n'}
+[5.121956] (-) TimerEvent: {}
+[5.222337] (-) TimerEvent: {}
+[5.322774] (-) TimerEvent: {}
+[5.411351] (cpp_srvcli) StdoutLine: {'line': b'[ 87%] Built target server_component\n'}
+[5.413998] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.417973] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[5.422890] (-) TimerEvent: {}
+[5.523452] (-) TimerEvent: {}
+[5.608876] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[5.610366] (-) EventReactorShutdown: {}

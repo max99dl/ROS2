@@ -1,0 +1,39 @@
+[0.109s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins -- -j12 -l12
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[1.077s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[1.261s] [100%] Built target polygon_plugins
+[1.284s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins -- -j12 -l12
+[1.357s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins
+[1.371s] -- Install configuration: ""
+[1.371s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[1.371s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include
+[1.371s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[1.372s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[1.372s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[1.372s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[1.373s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[1.373s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[1.374s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[1.374s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[1.374s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[1.375s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[1.375s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[1.375s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[1.375s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[1.376s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[1.376s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[1.376s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[1.377s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[1.377s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[1.377s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[1.377s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[1.378s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[1.378s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[1.378s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.378s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[1.379s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[1.379s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[1.379s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[1.379s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[1.384s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins

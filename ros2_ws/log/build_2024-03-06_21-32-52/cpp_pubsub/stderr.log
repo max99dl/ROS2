@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:132 (file):
+  file INSTALL cannot find
+  "/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/launch,": No such file or
+  directory.
+
+[0m

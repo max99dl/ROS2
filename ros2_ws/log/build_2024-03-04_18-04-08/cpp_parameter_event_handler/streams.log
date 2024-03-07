@@ -1,0 +1,26 @@
+[0.067s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler -- -j12 -l12
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.252s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[7.253s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[7.759s] [100%] Built target parameter_event_handler
+[7.785s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler -- -j12 -l12
+[7.856s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler
+[7.879s] -- Install configuration: ""
+[7.879s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[7.891s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[7.892s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[7.892s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[7.894s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[7.894s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[7.895s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[7.895s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[7.895s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[7.895s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[7.895s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[7.896s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[7.896s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[7.897s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[7.897s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[7.897s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[7.898s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[7.901s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_parameter_event_handler

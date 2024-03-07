@@ -1,0 +1,32 @@
+[0.115s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.316s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.316s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.156s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[6.518s] [ 75%] Built target talker
+[9.482s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.003s] [100%] Built target listener
+[10.044s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[10.109s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub
+[10.118s] -- Install configuration: ""
+[10.120s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[10.123s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[10.124s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[10.130s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[10.133s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.133s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.136s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[10.137s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[10.137s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[10.137s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[10.138s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[10.138s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[10.138s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[10.138s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[10.138s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[10.140s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[10.140s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.140s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.140s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[10.144s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub

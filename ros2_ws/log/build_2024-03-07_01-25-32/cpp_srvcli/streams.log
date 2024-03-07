@@ -1,0 +1,39 @@
+[0.124s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target server_component[0m
+[0.227s] [35m[1mConsolidate compiler generated dependencies of target client_component[0m
+[0.251s] [ 25%] Built target server
+[0.257s] [ 50%] Built target client
+[0.260s] [ 62%] [32mBuilding CXX object CMakeFiles/server_component.dir/src/add_two_ints_server.cpp.o[0m
+[0.261s] [ 75%] [32mBuilding CXX object CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o[0m
+[3.359s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid MinimalClient::create_and_send_request()[m[K’:
+[3.359s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:38:24:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.359s]    38 |                 return [01;31m[K0[m[K;
+[3.359s]       |                        [01;31m[K^[m[K
+[3.361s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(MinimalClient*, rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::FutureAndRequestId&)[m[K’
+[3.361s]    50 |         if([01;31m[Krclcpp::spin_until_future_complete(this, result)[m[K ==
+[3.361s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.361s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.362s]                  from [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[3.362s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+[3.362s]   105 | [01;36m[Kspin_until_future_complete[m[K(
+[3.362s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.362s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.362s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:47:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(MinimalClient*)this[m[K’ (type ‘[01m[KMinimalClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[3.362s]    50 |         if(rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, result) ==
+[3.363s]       |                                               [01;36m[K^~~~[m[K
+[3.363s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.363s]                  from [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[3.363s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[3.363s]   117 | [01;36m[Kspin_until_future_complete[m[K(
+[3.363s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.363s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.364s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:46:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KMinimalClient*[m[K’
+[3.364s]    50 |         if([01;36m[Krclcpp::spin_until_future_complete(this, result)[m[K ==
+[3.364s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.150s] gmake[2]: *** [CMakeFiles/client_component.dir/build.make:76: CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o] Error 1
+[4.151s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/client_component.dir/all] Error 2
+[4.151s] gmake[1]: *** Waiting for unfinished jobs....
+[5.083s] [ 87%] [32m[1mLinking CXX shared library libserver_component.so[0m
+[5.409s] [ 87%] Built target server_component
+[5.412s] gmake: *** [Makefile:146: all] Error 2
+[5.416s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameter_event_handler:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli -- -j12 -l12

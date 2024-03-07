@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 25%] Built target fibonacci_action_client
+[ 50%] Built target fibonacci_action_server
+[ 75%] Built target action_server
+[ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::FibonacciActionClient::result_callback(const rclcpp_action::ClientGoalHandle<action_tutorials_interfaces::action::Fibonacci>::WrappedResult&)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:103:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+  103 |           case[01;31m[K:[m[K rclcpp_action::ResultCode::SUCCEEDED:
+      |               [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:103:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+  103 |           case: rclcpp_action::ResultCode::SUCCEEDED[01;31m[K:[m[K
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:103:44:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  103 |           case: [01;35m[Krclcpp_action::ResultCode::SUCCEEDED[m[K:
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:105:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+  105 |           case[01;31m[K:[m[K rclcpp_action::ResultCode::ABORTED:
+      |               [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:105:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+  105 |           case: rclcpp_action::ResultCode::ABORTED[01;31m[K:[m[K
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:105:44:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  105 |           case: [01;35m[Krclcpp_action::ResultCode::ABORTED[m[K:
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:108:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+  108 |           case [01;31m[K:[m[K rclcpp_action::ResultCode::CANCELED:
+      |                [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:108:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+  108 |           case : rclcpp_action::ResultCode::CANCELED[01;31m[K:[m[K
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:108:45:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  108 |           case : [01;35m[Krclcpp_action::ResultCode::CANCELED[m[K:
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

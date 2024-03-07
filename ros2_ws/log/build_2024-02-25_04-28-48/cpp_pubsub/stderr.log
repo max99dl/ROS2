@@ -1,0 +1,20 @@
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:11:7:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[Knamesapce[m[K’
+   11 | using [01;31m[Knamesapce[m[K std::chrono_literals; // to be able use 1000ms
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   32 |             [01;31m[K1000ms[m[K,
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+   10 | rclcpp::[01;31m[Krclcpp[m[K::Subscription<std_msgs::msg::String>::SharedPtr subscriber_;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+   16 |         [01;31m[Ksubscriber_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

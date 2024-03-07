@@ -1,0 +1,59 @@
+[0.125s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[0.242s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.520s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.524s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.536s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.698s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.763s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.024s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.149s] -- Found tutorial_interfaces: 0.0.0 (/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.449s] -- Configuring done
+[1.486s] -- Generating done
+[1.489s] -- Build files have been written to: /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub
+[1.561s] [ 25%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/subscriber_member_function.cpp.o[0m
+[1.562s] [ 25%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/publisher_member_function.cpp.o[0m
+[1.563s] [ 37%] [32mBuilding CXX object CMakeFiles/listener.dir/rclcpp_components/node_main_listener.cpp.o[0m
+[1.576s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/rclcpp_components/node_main_talker.cpp.o[0m
+[217.355s] [ 62%] [32m[1mLinking CXX executable listener[0m
+[217.370s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[217.577s] [ 75%] Built target listener
+[217.579s] [ 75%] Built target talker
+[218.522s] [ 87%] [32m[1mLinking CXX static library libtalker_component.a[0m
+[218.655s] [ 87%] Built target talker_component
+[221.805s] [100%] [32m[1mLinking CXX static library liblistener_component.a[0m
+[222.017s] [100%] Built target listener_component
+[222.054s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[222.137s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub
+[222.159s] -- Install configuration: ""
+[222.160s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[222.161s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[222.162s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[222.162s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[222.162s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/libtalker_component.a
+[222.166s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/lib/liblistener_component.a
+[222.180s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[222.181s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[222.181s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[222.182s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[222.182s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[222.183s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[222.184s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[222.184s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[222.184s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[222.184s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[222.184s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[222.184s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[222.185s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/rclcpp_components/cpp_pubsub
+[222.186s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_talker_componentExport.cmake
+[222.186s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_talker_componentExport-noconfig.cmake
+[222.187s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_listener_componentExport.cmake
+[222.187s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_listener_componentExport-noconfig.cmake
+[222.187s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[222.188s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[222.188s] -- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[222.188s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[222.192s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins:/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_cpp/lib:/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_pubsub

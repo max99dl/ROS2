@@ -1,0 +1,18 @@
+[0.081s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp -- -j12 -l12
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.224s] [ 50%] Built target fibonacci_action_server
+[0.227s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[2.555s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)[m[K’:
+[2.555s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:40:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.555s]    40 |             std::bind(&FibonacciActionServer::handle_goal, this, _1, _2)[01;31m[K;[m[K
+[2.555s]       |                                                                         [01;31m[K^[m[K
+[2.555s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:37:71:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.556s]    37 |         this->action_server_ = rclcpp_action::create_server<Fibonacci>[01;36m[K([m[K
+[2.556s]       |                                                                       [01;36m[K^[m[K
+[2.560s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.560s]    43 |         [01;31m[K)[m[K
+[2.560s]       |         [01;31m[K^[m[K
+[3.112s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+[3.113s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+[3.113s] gmake: *** [Makefile:146: all] Error 2
+[3.124s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces/lib:/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/action_tutorials_cpp -- -j12 -l12

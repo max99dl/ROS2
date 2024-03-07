@@ -1,0 +1,10 @@
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/uninstall.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/polygon_plugins_uninstall.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/polygon_plugins.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/test.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/edit_cache.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/rebuild_cache.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/list_install_components.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/install.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/install/local.dir
+/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins/CMakeFiles/install/strip.dir

@@ -1,0 +1,25 @@
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid MinimalClient::create_and_send_request()[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(MinimalClient&, rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::FutureAndRequestId&)[m[K’
+   50 |         if([01;31m[Krclcpp::spin_until_future_complete(*(this), result)[m[K ==
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+  105 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:47:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K*(MinimalClient*)this[m[K’ (type ‘[01m[KMinimalClient[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+   50 |         if(rclcpp::spin_until_future_complete([01;36m[K*(this)[m[K, result) ==
+      |                                               [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+  117 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:50:46:[m[K [01;36m[Knote: [m[K  ‘[01m[KMinimalClient[m[K’ is not derived from ‘[01m[Kstd::shared_ptr<_Tp>[m[K’
+   50 |         if([01;36m[Krclcpp::spin_until_future_complete(*(this), result)[m[K ==
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client_component.dir/build.make:76: CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/client_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,30 @@
+[0.100s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.250s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.252s] [ 75%] Built target server
+[4.784s] [100%] [32m[1mLinking CXX executable client[0m
+[5.065s] [100%] Built target client
+[5.085s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[5.148s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli
+[5.160s] -- Install configuration: ""
+[5.160s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.162s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[5.162s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.164s] -- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[5.165s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.166s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.166s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.167s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.167s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.167s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.168s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.168s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.168s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.169s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.169s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.169s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.170s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.170s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.170s] -- Installing: /home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.175s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maxim/git/ROS2/ros2_ws/build/cpp_srvcli

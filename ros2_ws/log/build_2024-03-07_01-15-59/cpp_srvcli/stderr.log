@@ -1,0 +1,52 @@
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KMinimalServer::MinimalServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+   18 |         [01;31m[Kserver_[m[K = this->create_service<tutorial_interfaces::srv::AddThreeInts>(
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:15:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |     std::shared_ptr<tutorial_interfaces::srv::AddThreeInts>[01;31m[KSharedPtr[m[K client_;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:15:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+   15 |     std::shared_ptr<tutorial_interfaces::srv::AddThreeInts>SharedPtr [01;31m[Kclient_[m[K;
+      |                                                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In constructor ‘[01m[KMinimalClient::MinimalClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   21 |         [01;31m[Kclient_[m[K = this->create_client<tutorial_interfaces::rsv::AddThreeInts>("add_three_ints");
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krsv[m[K’ is not a member of ‘[01m[Ktutorial_interfaces[m[K’; did you mean ‘[01m[Ksrv[m[K’?
+   21 |         client_ = this->create_client<tutorial_interfaces::[01;31m[Krsv[m[K::AddThreeInts>("add_three_ints");
+      |                                                            [01;31m[K^~~[m[K
+      |                                                            [32m[Ksrv[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   21 |         client_ = this->[01;31m[Kcreate_client<tutorial_interfaces::rsv::AddThreeInts>[m[K("add_three_ints");
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalClient::create_client<<expression error> >(const char [15])[m[K’
+   21 |         client_ = [01;31m[Kthis->create_client<tutorial_interfaces::rsv::AddThreeInts>("add_three_ints")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         client_ = [01;31m[Kthis->create_client<tutorial_interfaces::rsv::AddThreeInts>("add_three_ints")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid MinimalClient::create_and_send_request()[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:33:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   33 |         while (![01;31m[Kclient_[m[K->wait_for_service(1s))
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:38:24:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   38 |                 return [01;31m[K0[m[K;
+      |                        [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:44:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   44 |         auto result = [01;31m[Kclient_[m[K->async_send_request(request);
+      |                       [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client_component.dir/build.make:76: CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/client_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/server_component.dir/build.make:76: CMakeFiles/server_component.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/server_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

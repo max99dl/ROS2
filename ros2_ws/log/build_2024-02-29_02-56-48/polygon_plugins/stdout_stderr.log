@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[100%] Built target polygon_plugins
+-- Install configuration: ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include/polygon_plugins
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+-- Set runtime path of "/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+-- Up-to-date: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+-- Installing: /home/maxim/git/ROS2/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml

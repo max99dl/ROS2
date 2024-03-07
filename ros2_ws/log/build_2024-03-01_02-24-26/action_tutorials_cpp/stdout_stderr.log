@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 50%] Built target fibonacci_action_server
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:40:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   40 |             std::bind(&FibonacciActionServer::handle_goal, this, _1, _2)[01;31m[K;[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:37:71:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   37 |         this->action_server_ = rclcpp_action::create_server<Fibonacci>[01;36m[K([m[K
+      |                                                                       [01;36m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   43 |         [01;31m[K)[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,181 @@
+[35m[1mConsolidate compiler generated dependencies of target fibonacci_action_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[ 75%] Built target fibonacci_action_server
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:16:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope; did you mean ‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’?
+   16 |     rclcpp_action::Server<[01;31m[KFibonacci[m[K>::SharedPtr action_server_;
+      |                           [01;31m[K^~~~~~~~~[m[K
+      |                           [32m[Kaction_tutorials_interfaces::action::Fibonacci[m[K
+In file included from [01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp:7[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:6[m[K:
+[01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp:1041:26:[m[K [01;36m[Knote: [m[K‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’ declared here
+ 1041 | typedef struct Fibonacci [01;36m[KFibonacci[m[K;
+      |                          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:16:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     rclcpp_action::Server<Fibonacci[01;31m[K>[m[K::SharedPtr action_server_;
+      |                                    [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:16:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |     rclcpp_action::Server<Fibonacci>::[01;31m[KSharedPtr[m[K action_server_;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:16:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+   16 |     rclcpp_action::Server<Fibonacci>::SharedPtr [01;31m[Kaction_server_[m[K;
+      |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                 [32m[Krcl_action_server_t[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:19:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_tutorial_interfaces[m[K’ does not name a type
+   19 |     using Fibonacci = [01;31m[Kaction_tutorial_interfaces[m[K::action::Fibonacci;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:21:66:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope; did you mean ‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’?
+   21 |     using GoalHandlerFibonacci = rclcpp_action::ServerGoalHandle<[01;31m[KFibonacci[m[K>;
+      |                                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[Kaction_tutorials_interfaces::action::Fibonacci[m[K
+In file included from [01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp:7[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:6[m[K:
+[01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp:1041:26:[m[K [01;36m[Knote: [m[K‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’ declared here
+ 1041 | typedef struct Fibonacci [01;36m[KFibonacci[m[K;
+      |                          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:21:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     using GoalHandlerFibonacci = rclcpp_action::ServerGoalHandle<Fibonacci[01;31m[K>[m[K;
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:40:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   51 |         std::shared_ptr<const Fibonnaci[01;31m[K::[m[KGoal> goal)
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |         std::shared_ptr<const Fibonnaci::Goal[01;31m[K>[m[K goal)
+      |                                              [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:40:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   51 |         std::shared_ptr<const Fibonnaci[01;31m[K::[m[KGoal> goal)
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |         std::shared_ptr<const Fibonnaci::Goal[01;31m[K>[m[K goal)
+      |                                              [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:40:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   51 |         std::shared_ptr<const Fibonnaci[01;31m[K::[m[KGoal> goal)
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |         std::shared_ptr<const Fibonnaci::Goal[01;31m[K>[m[K goal)
+      |                                              [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   51 |         [01;31m[Kstd[m[K::shared_ptr<const Fibonnaci::Goal> goal)
+      |         [01;31m[K^~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:40:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   51 |         std::shared_ptr<const Fibonnaci[01;31m[K::[m[KGoal> goal)
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   51 |         std::shared_ptr<[01;31m[Kconst[m[K Fibonnaci::Goal> goal)
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:51:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   51 |         [01;31m[Kstd[m[K::shared_ptr<const Fibonnaci::Goal> goal)
+      |         [01;31m[K^~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:61:31:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandlerFibonacci[m[K’ was not declared in this scope
+   61 |         const std::shared_ptr<[01;31m[KGoalHandlerFibonacci[m[K> goal_handle)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:61:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |         const std::shared_ptr<GoalHandlerFibonacci[01;31m[K>[m[K goal_handle)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:70:48:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandlerFibonacci[m[K’ was not declared in this scope
+   70 |     void handle_accepted(const std::shared_ptr<[01;31m[KGoalHandlerFibonacci[m[K> goal_handle)
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:70:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   70 |     void handle_accepted(const std::shared_ptr<GoalHandlerFibonacci[01;31m[K>[m[K goal_handle)
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:79:40:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandlerFibonacci[m[K’ was not declared in this scope
+   79 |     void execute(const std::shared_ptr<[01;31m[KGoalHandlerFibonacci[m[K> goal_handle)
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:79:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |     void execute(const std::shared_ptr<GoalHandlerFibonacci[01;31m[K>[m[K goal_handle)
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionServer::FibonacciActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:39:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionServer[m[K’ has no member named ‘[01m[Kaction_server_[m[K’
+   39 |         this->[01;31m[Kaction_server_[m[K = rclcpp_action::create_server<Fibonacci>(
+      |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:39:61:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope; did you mean ‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’?
+   39 |         this->action_server_ = rclcpp_action::create_server<[01;31m[KFibonacci[m[K>(
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[Kaction_tutorials_interfaces::action::Fibonacci[m[K
+In file included from [01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp:7[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:6[m[K:
+[01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp:1041:26:[m[K [01;36m[Knote: [m[K‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’ declared here
+ 1041 | typedef struct Fibonacci [01;36m[KFibonacci[m[K;
+      |                          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:42:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   42 |             std::bind(&FibonacciActionServer::handle_goal, this, _1, _2)[01;31m[K;[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:39:71:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   39 |         this->action_server_ = rclcpp_action::create_server<Fibonacci>[01;36m[K([m[K
+      |                                                                       [01;36m[K^[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:45:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   45 |         [01;31m[K)[m[K
+      |         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:5[m[K:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse action_tutorials_cpp::FibonacciActionServer::handle_goal(...)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:53:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   53 |         RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", [01;31m[Kgoal[m[K->order);
+      |                                                                                [01;31m[K^~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::FibonacciActionServer::execute(int)[m[K’:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:86:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   86 |         const auto goal = goal_handle[01;31m[K->[m[Kget_goal();
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:87:42:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ was not declared in this scope; did you mean ‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’?
+   87 |         auto feedback = std::make_shared<[01;31m[KFibonacci[m[K::Feedback>();
+      |                                          [01;31m[K^~~~~~~~~[m[K
+      |                                          [32m[Kaction_tutorials_interfaces::action::Fibonacci[m[K
+In file included from [01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp:7[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:6[m[K:
+[01m[K/home/maxim/git/ROS2/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp:1041:26:[m[K [01;36m[Knote: [m[K‘[01m[Kaction_tutorials_interfaces::action::Fibonacci[m[K’ declared here
+ 1041 | typedef struct Fibonacci [01;36m[KFibonacci[m[K;
+      |                          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:87:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   87 |         auto feedback = std::[01;31m[Kmake_shared<Fibonacci::Feedback>[m[K();
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:87:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   87 |         auto feedback = [01;31m[Kstd::make_shared<Fibonacci::Feedback>()[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:87:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   87 |         auto feedback = [01;31m[Kstd::make_shared<Fibonacci::Feedback>()[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:91:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   91 |         auto result = std::[01;31m[Kmake_shared<Fibonacci::Result>[m[K();
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:91:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<Fibonacci>()[m[K’
+   91 |         auto result = [01;31m[Kstd::make_shared<Fibonacci::Result>()[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:96:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   96 |             if(goal_handle[01;31m[K->[m[Kis_canceling()) {
+      |                           [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:98:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   98 |                 goal_handle[01;31m[K->[m[Kcanceled(result);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:106:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_handle[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_handle[m[K’?
+  106 |             [01;31m[Kget_handle[m[K->publish_feedback(feedback);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kgoal_handle[m[K
+[01m[K/home/maxim/git/ROS2/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_server.cpp:116:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  116 |             goal_handle[01;31m[K->[m[Ksucceed(result);
+      |                        [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

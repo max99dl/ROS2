@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target server_component[0m
+[35m[1mConsolidate compiler generated dependencies of target client_component[0m
+[ 25%] Built target server
+[ 50%] Built target client
+[ 62%] [32mBuilding CXX object CMakeFiles/server_component.dir/src/add_two_ints_server.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/client_component.dir/src/add_two_ints_client.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libserver_component.so[0m
+[ 87%] Built target server_component

@@ -1,0 +1,33 @@
+[0.108s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake /home/maxim/git/ROS2/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins
+[0.240s] -- The C compiler identification is GNU 11.4.0
+[0.341s] -- The CXX compiler identification is GNU 11.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.509s] -- Detecting C compiler ABI info - done
+[0.529s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.530s] -- Detecting C compile features
+[0.531s] -- Detecting C compile features - done
+[0.540s] -- Detecting CXX compiler ABI info
+[0.711s] -- Detecting CXX compiler ABI info - done
+[0.731s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.732s] -- Detecting CXX compile features
+[0.733s] -- Detecting CXX compile features - done
+[0.760s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.068s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.260s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.283s] -- Found polygon_base: 0.0.0 (/home/maxim/git/ROS2/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[1.290s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.528s] -- Configuring done
+[1.543s] -- Generating done
+[1.546s] -- Build files have been written to: /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins
+[1.560s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake /home/maxim/git/ROS2/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/maxim/git/ROS2/ros2_ws/install/polygon_plugins
+[1.564s] Invoking command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins -- -j12 -l12
+[1.666s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[1.948s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In member function ‘[01m[Kvirtual double polygon_plugins::Triangle::area()[m[K’:
+[1.948s] [01m[K/home/maxim/git/ROS2/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:32:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length[m[K’ was not declared in this scope; did you mean ‘[01m[Kside_length_[m[K’?
+[1.948s]    32 |                     - ((side_length_ / 2) * ([01;31m[Kside_length[m[K / 2)));
+[1.948s]       |                                              [01;31m[K^~~~~~~~~~~[m[K
+[1.949s]       |                                              [32m[Kside_length_[m[K
+[2.368s] gmake[2]: *** [CMakeFiles/polygon_plugins.dir/build.make:76: CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o] Error 1
+[2.368s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polygon_plugins.dir/all] Error 2
+[2.369s] gmake: *** [Makefile:146: all] Error 2
+[2.372s] Invoked command in '/home/maxim/git/ROS2/ros2_ws/build/polygon_plugins' returned '2': AMENT_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maxim/git/ROS2/ros2_ws/install/polygon_base:/home/maxim/git/ROS2/ros2_ws/install/cpp_srvcli:/home/maxim/git/ROS2/ros2_ws/install/cpp_pubsub:/home/maxim/git/ROS2/ros2_ws/install/tutorial_interfaces:/home/maxim/git/ROS2/ros2_ws/install/my_package:/home/maxim/git/ROS2/ros2_ws/install/more_interfaces:/home/maxim/git/ROS2/ros2_ws/install/cpp_parameters:/opt/ros/humble /usr/bin/cmake --build /home/maxim/git/ROS2/ros2_ws/build/polygon_plugins -- -j12 -l12
